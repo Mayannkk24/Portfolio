@@ -35,7 +35,12 @@ export const AboutSection = () =>{
                             <div className="p-3 rounded-full bg-primary/10">
                             <Code className="h-6 w-6 text-primary"/>
                             </div>
-                            <div></div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg">Web Development</h4>
+                                <p className="text-muted-foreground">
+                                    Create Resopnsive real World Ai Website nd projects with modern technologies like React, Tailwind CSS, Node.js and more.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover"> 
@@ -43,12 +48,24 @@ export const AboutSection = () =>{
                             <div className="p-3 rounded-full bg-primary/10">
                             <User className="h-6 w-6 text-primary"/>
                             </div>
+                             <div className="text-left">
+                                <h4 className="font-semibold text-lg">AI/ML Developer</h4>
+                                <p className="text-muted-foreground">
+                                    Build intelligent applications using machine learning and artificial intelligence techniques.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover"> 
                         <div className="flex items-start gap-4 ">
                             <div className="p-3 rounded-full bg-primary/10">
                             <Briefcase className="h-6 w-6 text-primary"/>
+                            </div>
+                             <div className="text-left">
+                                <h4 className="font-semibold text-lg">Fresher</h4>
+                                <p className="text-muted-foreground">
+                                    Still learing and exploring the vast field of AI and web development, eager to take on new challenges and contribute to innovative projects.
+                                </p>
                             </div>
                         </div>
                     </div>
